@@ -72,7 +72,7 @@ function add_row(post, user) {
             ${user.website}
         </div>
         <div class="posts-row-cell">
-            ${user.company.name}
+            ${user.company.name + ", " + user.company.catchPhrase + ", " + user.company.bs}
         </div>
     </div>`);
 }
